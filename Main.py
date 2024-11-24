@@ -89,8 +89,8 @@ while True:
 
     player.move()
 
-    if player.hitbox.colliderect(gold.hitbox)
-            
+    if player.hitbox.colliderect(gold.hitbox):
+        win_window(window)
 
     window.fill([255, 0, 0])
     window.blit(background, [0, 0])
